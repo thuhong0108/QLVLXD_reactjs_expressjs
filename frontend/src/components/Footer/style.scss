@@ -1,0 +1,18 @@
+.footer {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    text-align: center;
+    padding: 35px 0;
+
+    &__content {
+        color: gray;
+        font-size: 15px;
+        
+        span {
+            color: white;
+        }
+    }
+}

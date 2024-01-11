@@ -1,0 +1,24 @@
+.products {
+    margin-bottom: 120px;
+
+    &__heading {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+        color: rgb(0, 177, 86);
+    }
+
+    &__category {
+        margin-bottom: 20px;
+        text-align: right;
+        & > * {
+            min-width: 100px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}

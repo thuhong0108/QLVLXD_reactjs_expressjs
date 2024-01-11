@@ -1,0 +1,24 @@
+.orderMan {
+    &__image {
+        width: 100px;
+        height: 100px;
+    }
+
+    th {
+        font-size: 15px !important;
+        font-weight: bold !important;
+    }
+    
+    td {
+        font-size: 14px !important;
+    }
+
+    &__action {
+        display: flex;
+        align-items: center;
+        gap: 0 15px;
+        svg {
+            cursor: pointer;
+        }
+    }
+}
